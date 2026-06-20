@@ -8,6 +8,8 @@
   <img alt="stars" src="https://img.shields.io/github/stars/yangkaiHandsome/claude-skill-delegate?style=social">
 </p>
 
+![演示 demo](assets/demo.gif)
+
 一个 [Claude Code](https://claude.com/claude-code) 的 **Agent Skill**。当 Claude Code 本身的额度/用量吃紧,或你想让别的命令行代理分担时,用 `/delegate` 把任务转交给本机已安装的两个 CLI 代理执行,再把结果拿回来汇总。
 
 Claude 在这里是**调度者**:负责选执行器、构造命令、驱动运行、读取并校验输出、汇总给你——不亲自做被派出去的那部分活。
